@@ -1,0 +1,70 @@
+<!--
+title: Contact Us for a Free Quote | 2F Construction, Nottingham
+description: Request a free home visit and quote from 2F Construction for renovations, carpentry and joinery, or painting and decorating in Nottingham.
+nav: contact
+-->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Get a free quote</h1>
+        <p class="lede">Tell us a little about the job and we’ll arrange a time to come and see it. We usually reply within one working day.</p>
+      </div>
+    </section>
+
+    <section class="section section-flush-top" aria-label="Contact">
+      <div class="container contact-grid">
+        <form class="quote-form" id="quote-form" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="error" id="name-error" hidden>Enter your name.</p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+              <p class="error" id="phone-error" hidden>Enter a phone number so we can arrange a visit.</p>
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="optional">(optional)</span></label>
+              <input id="email" name="email" type="email" autocomplete="email">
+              <p class="error" id="email-error" hidden>Enter an email address like name@example.com.</p>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="service">Type of work</label>
+              <select id="service" name="service">
+                <option>Building renovation</option>
+                <option>Carpentry and joinery</option>
+                <option>Painting and decorating</option>
+                <option>A mix of these</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="postcode">Postcode</label>
+              <input id="postcode" name="postcode" type="text" autocomplete="postal-code" required>
+              <p class="error" id="postcode-error" hidden>Enter the postcode of the property.</p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">About the job</label>
+            <textarea id="message" name="message" rows="5" placeholder="For example: knock through between kitchen and dining room, then redecorate."></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Request my quote</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="contact-card" aria-labelledby="details-title">
+          <h2 id="details-title">Contact details</h2>
+          <ul class="contact-details">
+            <li><span>Phone</span><a href="tel:01154960123">0115 496 0123</a></li>
+            <li><span>Email</span><a href="mailto:hello@example.co.uk">hello@example.co.uk</a></li>
+            <li><span>Hours</span>Monday to Friday 8am to 6pm, Saturday 9am to 1pm</li>
+            <li><span>Based in</span>Nottingham</li>
+          </ul>
+          <p>Prefer to talk it through? Call us and we’ll book a visit there and then.</p>
+        </aside>
+      </div>
+    </section>
+
+{{> areas}}

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us for a Free Quote | 2F Construction, Nottingham</title>
+  <meta name="description" content="Request a free home visit and quote from 2F Construction for renovations, carpentry and joinery, or painting and decorating in Nottingham.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="2F Construction home">
+        <img src="assets/logo.svg" alt="" width="40" height="40">
+        <span>2F Construction</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="our-work.html">Our work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm" href="contact.html">Get a free quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Get a free quote</h1>
+        <p class="lede">Tell us a little about the job and we’ll arrange a time to come and see it. We usually reply within one working day.</p>
+      </div>
+    </section>
+
+    <section class="section section-flush-top" aria-label="Contact">
+      <div class="container contact-grid">
+        <form class="quote-form" id="quote-form" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="error" id="name-error" hidden>Enter your name.</p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+              <p class="error" id="phone-error" hidden>Enter a phone number so we can arrange a visit.</p>
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="optional">(optional)</span></label>
+              <input id="email" name="email" type="email" autocomplete="email">
+              <p class="error" id="email-error" hidden>Enter an email address like name@example.com.</p>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="service">Type of work</label>
+              <select id="service" name="service">
+                <option>Building renovation</option>
+                <option>Carpentry and joinery</option>
+                <option>Painting and decorating</option>
+                <option>A mix of these</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="postcode">Postcode</label>
+              <input id="postcode" name="postcode" type="text" autocomplete="postal-code" required>
+              <p class="error" id="postcode-error" hidden>Enter the postcode of the property.</p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">About the job</label>
+            <textarea id="message" name="message" rows="5" placeholder="For example: knock through between kitchen and dining room, then redecorate."></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Request my quote</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="contact-card" aria-labelledby="details-title">
+          <h2 id="details-title">Contact details</h2>
+          <ul class="contact-details">
+            <li><span>Phone</span><a href="tel:01154960123">0115 496 0123</a></li>
+            <li><span>Email</span><a href="mailto:hello@example.co.uk">hello@example.co.uk</a></li>
+            <li><span>Hours</span>Monday to Friday 8am to 6pm, Saturday 9am to 1pm</li>
+            <li><span>Based in</span>Nottingham</li>
+          </ul>
+          <p>Prefer to talk it through? Call us and we’ll book a visit there and then.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="areas-title">
+      <div class="container areas">
+        <div>
+          <h2 id="areas-title">Areas we cover</h2>
+          <p>We work across Nottingham and within roughly 20 miles of the city. If you’re not sure whether we cover your area, just ask.</p>
+        </div>
+        <ul class="area-list">
+          <li>Nottingham city centre</li><li>West Bridgford</li><li>Beeston</li><li>Wollaton</li>
+          <li>Arnold</li><li>Mapperley</li><li>Carlton</li><li>Sherwood</li>
+          <li>Hucknall</li><li>Bulwell</li><li>Clifton</li><li>Long Eaton</li>
+        </ul>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.svg" alt="" width="36" height="36">
+          <span>2F Construction</span>
+        </a>
+        <p>Renovations, carpentry and joinery, and painting and decorating across Nottingham.</p>
+      </div>
+      <nav aria-label="Services">
+        <h2>Services</h2>
+        <ul>
+          <li><a href="building-renovations.html">Building renovations</a></li>
+          <li><a href="carpentry-joinery.html">Carpentry and joinery</a></li>
+          <li><a href="painting-decorating.html">Painting and decorating</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Company">
+        <h2>Company</h2>
+        <ul>
+          <li><a href="our-work.html">Our work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Get in touch</h2>
+        <ul>
+          <li><a href="tel:01154960123">0115 496 0123</a></li>
+          <li><a href="mailto:hello@example.co.uk">hello@example.co.uk</a></li>
+          <li>Monday to Friday 8am to 6pm</li>
+        </ul>
+      </div>
+      <p class="legal">© <span class="year">2026</span> 2F Construction, Nottingham. Company number and registered address to be added.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

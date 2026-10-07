@@ -3,7 +3,7 @@
 A static multi-page site. Edit files in `src/`, then run `node build.mjs` to regenerate `site/`, which is the folder you deploy (Netlify, Vercel or Cloudflare Pages; no other dependencies).
 
 - `src/layout.html`: header, menu and footer shared by every page
-- `src/pages/`: one file per page (home, services, the three trade pages, our work, about, FAQs, contact)
+- `src/pages/`: one file per page (home, services, gallery, reviews, contact)
 - `src/partials/`: sections reused on several pages (quote banner, reviews, areas, process, benefits)
 - `src/styles.css`: colours and fonts are the tokens at the top
 
@@ -15,5 +15,5 @@ A static multi-page site. Edit files in `src/`, then run `node build.mjs` to reg
 - **Email**: `hello@example.co.uk`.
 - **Photos**: every green hatched panel (`.ph`) is an image slot, labelled with the photo it needs.
 - **Reviews and stats**: marked "Sample review" / "Placeholder figures".
-- **Team, about story, insurance, accreditations, payment and guarantee FAQs, company number**: marked as placeholders on the page.
+- **Google review link** on the reviews page, and the **company number** in the footer.
 - **Quote form**: not connected. See the TODO in `src/script.js` (Formspree or Netlify Forms are the easy options).

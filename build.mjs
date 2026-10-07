@@ -14,10 +14,10 @@ const SRC = 'src';
 const OUT = 'site';
 
 const NAV = [
+  { key: 'home', href: 'index.html', label: 'Home' },
   { key: 'services', href: 'services.html', label: 'Services' },
-  { key: 'work', href: 'our-work.html', label: 'Our work' },
-  { key: 'about', href: 'about.html', label: 'About' },
-  { key: 'faqs', href: 'faqs.html', label: 'FAQs' },
+  { key: 'gallery', href: 'gallery.html', label: 'Gallery' },
+  { key: 'reviews', href: 'reviews.html', label: 'Reviews' },
   { key: 'contact', href: 'contact.html', label: 'Contact' },
 ];
 

@@ -15,5 +15,5 @@ A static multi-page site. Edit files in `src/`, then run `node build.mjs` to reg
 - **Email**: `hello@example.co.uk`.
 - **Photos**: every green hatched panel (`.ph`) is an image slot, labelled with the photo it needs.
 - **Reviews and stats**: marked "Sample review" / "Placeholder figures".
-- **Google review link** on the reviews page, and the **company number** in the footer.
+- **Google review link** on the reviews page, and your **full name** in the footer (“2F Construction is the trading name of …”).
 - **Quote form**: not connected. See the TODO in `src/script.js` (Formspree or Netlify Forms are the easy options).

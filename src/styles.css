@@ -150,6 +150,14 @@ p { margin: 0 0 1em; max-width: 65ch; }
 .hero h1 { font-size: clamp(2.5rem, 5.6vw, 4.6rem); font-stretch: 115%; font-weight: 850; line-height: 1; letter-spacing: -0.02em; }
 .lede { font-size: clamp(1.1rem, 1.6vw, 1.25rem); color: var(--muted); max-width: 52ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.hero-points { list-style: none; margin: 28px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 24px; font-weight: 600; }
+.hero-points li { position: relative; padding-left: 24px; }
+.hero-points li::before {
+  content: ""; position: absolute; left: 2px; top: .45em; width: 11px; height: 6px;
+  border-left: 2.5px solid var(--oak-600); border-bottom: 2.5px solid var(--oak-600);
+  transform: rotate(-45deg);
+}
+.review-link { display: block; width: fit-content; margin-top: 10px; font-size: .9rem; font-weight: 700; color: var(--oak-600); }
 .hero-media { position: relative; margin: 0; }
 .hero-review {
   position: absolute; left: -32px; bottom: -24px; width: min(320px, 90%);
@@ -271,8 +279,8 @@ p { margin: 0 0 1em; max-width: 65ch; }
 
 /* Home: service links */
 .service-links { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
-.service-links a { display: block; text-decoration: none; height: 100%; }
-.service-links h3 { margin-top: 20px; font-size: 1.5rem; }
+.service-links a { display: block; text-decoration: none; height: 100%; padding-top: 24px; border-top: 3px solid var(--olive-800); }
+.service-links h3 { font-size: 1.5rem; }
 .service-links p { color: var(--muted); }
 .link-label { font-weight: 700; color: var(--oak-600); border-bottom: 2px solid currentColor; }
 .service-links a:hover .link-label { color: var(--oak-700); }
